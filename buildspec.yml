@@ -1,6 +1,6 @@
 version: 0.2
 
-phase:
+phases:
   build:
     commands:
       - echo Entered the build phase...
@@ -13,4 +13,4 @@ phase:
 artifacts:
   files:
     - target/awscicd.jar
-  discard-path: yes
+  discard-paths: yes
